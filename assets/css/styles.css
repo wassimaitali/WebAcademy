@@ -494,7 +494,7 @@ body.dark-theme{
 
 
 /* Styles généraux pour le formulaire */
-form {
+.form {
   margin-top: 20px;
   padding: 20px;
   background-color: #f5f5f5;
@@ -505,25 +505,25 @@ form {
   flex-direction: column
 }
 
-form label {
+.form label {
   display: block;
   margin-bottom: 10px;
 }
 
-form input[type="text"],
-form input[type="email"],
-form textarea {
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
   width: 80%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
-form textarea {
+.form textarea {
   height: 120px;
 }
 
-form input[type="submit"] {
+.form input[type="submit"] {
   display: block;
   width: 50%;
   padding: 10px;
@@ -533,23 +533,4 @@ form input[type="submit"] {
   border-radius: 4px;
   cursor: pointer;
   align-items: center;
-}
-
-/* Styles spécifiques pour le formulaire placé avant le footer */
-#contact-form {
-  margin-top: 40px;
-}
-
-#contact-form label {
-  font-weight: bold;
-}
-
-#contact-form input[type="text"],
-#contact-form input[type="email"],
-#contact-form textarea {
-  margin-bottom: 15px;
-}
-
-#contact-form input[type="submit"] {
-  margin-top: 15px;
 }
