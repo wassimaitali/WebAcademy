@@ -1,0 +1,40 @@
+/* ProductList.css */
+
+.product-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .product-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .product-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .product-name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .product-price {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .product-category {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .product-description {
+    font-size: 14px;
+    color: #333;
+  }
+  

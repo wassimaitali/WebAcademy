@@ -1,0 +1,119 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+.wrapper .container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+.wrapper .container .boxLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  padding: 0 5%;
+}
+.wrapper .container .boxLeft .boxContainer {
+  width: 400px;
+}
+.wrapper .container .boxLeft .boxContainer .boxTitle {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.wrapper .container .boxLeft .boxContainer .boxTitle h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #1e1e1e;
+}
+.wrapper .container .boxLeft .boxContainer .boxTitle p {
+  color: gray;
+}
+.wrapper .container .boxLeft .boxContainer .boxForm .boxInput {
+  margin-top: 10px;
+}
+.wrapper .container .boxLeft .boxContainer .boxForm .boxInput .boxLabel {
+  margin-bottom: 10px;
+}
+.wrapper .container .boxLeft .boxContainer .boxForm .boxInput .boxLabel label {
+  font-size: 16px;
+  font-weight: 550;
+  color: #1e1e1e;
+}
+.wrapper .container .boxLeft .boxContainer .boxForm .boxInput .boxLabel label span {
+  color: orangered;
+}
+.wrapper .container .boxLeft .boxContainer .boxForm .boxInput input {
+  border: 1px rgb(209, 209, 209) solid;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 14px;
+  width: 100%;
+  color: #1e1e1e;
+  transition: all 300ms ease-in-out;
+}
+.wrapper .container .boxLeft .boxContainer .boxForm .boxInput input:hover {
+  border: 1px rgb(127, 127, 127) solid;
+}
+.wrapper .container .boxLeft .boxContainer .boxForm .boxInput input:focus {
+  border: 1px rgb(127, 127, 127) solid;
+}
+.wrapper .container .boxLeft .boxContainer .boxForm .boxInput input:focus::-moz-placeholder {
+  color: #1e1e1e;
+}
+.wrapper .container .boxLeft .boxContainer .boxForm .boxInput input:focus::placeholder {
+  color: #1e1e1e;
+}
+.wrapper .container .boxLeft .boxContainer .boxForm button {
+  width: 100%;
+  background-color: #1e1e1e;
+  border: 1px solid #1e1e1e;
+  color: #fff;
+  margin-top: 50px;
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+  transition: all 300ms ease-in-out;
+}
+.wrapper .container .boxLeft .boxContainer .boxForm button:hover {
+  background-color: #fff;
+  color: #1e1e1e;
+}
+.wrapper .container .boxLeft .boxContainer .boxForm .link {
+  font-size: 15px;
+}
+.wrapper .container .boxLeft .boxContainer .boxForm .link .linkTo {
+  font-size: 15px;
+  color: #a3232b;
+  font-weight: 600;
+}
+.wrapper .container .boxLeft .boxContainer .boxForm .link .linkTo:hover {
+  text-decoration: underline;
+}
+.wrapper .container .boxLeft .boxContainer .boxForm .messageError {
+  font-size: 15px;
+  margin-top: 20px;
+  text-align: center;
+  color: rgb(255, 0, 0);
+}
+.wrapper .container .boxLeft .boxContainer .boxForm .messageErrorE {
+  font-size: 15px;
+  margin-top: 15px;
+  text-align: center;
+  color: rgb(255, 0, 0);
+}
+.wrapper .container .boxRight {
+  height: 100%;
+  width: 50%;
+  padding: 20px;
+  padding-left: 0;
+}
+.wrapper .container .boxRight .boxRightImg {
+  height: 100%;
+  border-radius: 30px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/background-form.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=Form.css.map */

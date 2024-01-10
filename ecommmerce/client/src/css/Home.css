@@ -1,0 +1,169 @@
+/* Home.css */
+/* @import '~@fortawesome/fontawesome-free/css/all.min.css'; */
+
+
+/* Styling pour le header */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-bar button {
+    padding: 5px 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Home.css */
+.auth-buttons button {
+    padding: 5px 10px;
+    margin-right: 10px; /* Ajoute un espace de 10px à droite de chaque bouton, vous pouvez ajuster cette valeur selon vos préférences */
+    /* background-color: #007bff; */
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  
+  /* Styling pour les blocs de produits */
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .product-block {
+    display: flex;
+    width: 70%;
+    padding: 100px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cardProduct{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 350px;
+    width: 300px;
+    margin: 10px;
+    border-radius: 8px;
+  }
+  .cardProduct2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 20px rgb(211, 211, 211);
+    height: 84%;
+    width: 100%;
+    border-radius: 5%;
+    background-color: rgb(247, 247, 247);
+  }
+  .imgProduct{
+    display: flex;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .imgProduct2{
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+  }
+
+  .btnAddPanier{
+    background-color: rgb(0, 168, 3);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 200px;
+  }
+  .btnAddPanier:hover{
+    background-color: rgb(0, 125, 2);
+  }
+  
+  /* Styling pour le footer */
+.footer-container {
+    background-color: #8f8f8f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer-links a:hover {
+    color: #fff;
+
+    text-decoration: underline;
+  }
+  
+  .footer-social {
+    color: #fff;
+
+    margin-top: 20px;
+  }
+  
+  .footer-social p {
+    color: #fff;
+
+    margin: 0;
+  }
+  
+  .social-icons {
+    color: #fff;
+
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .footer-copyright {
+    color: #fff;
+
+    margin-top: 20px;
+  }
+  
+  

@@ -1,0 +1,141 @@
+/* Home.css */
+/* @import '~@fortawesome/fontawesome-free/css/all.min.css'; */
+
+
+/* Styling pour le header */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .search-bar input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Home.css */
+.auth-buttons button {
+    padding: 5px 10px;
+    margin-right: 10px; /* Ajoute un espace de 10px à droite de chaque bouton, vous pouvez ajuster cette valeur selon vos préférences */
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+.auth-buttons button:hover{
+    background-color: #777777;
+}
+
+  /* Styling pour les blocs de produits */
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .product-blockP {
+    display: flex;
+    width: 70%;
+    padding: 100px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: rgb(247, 247, 247);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .cardProductP{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    width: 90%;
+    margin: 10px;
+    border-radius: 8px;
+  }
+  .cardProduct2P{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 7px rgb(211, 211, 211);
+    height: 90%;
+    width: 80%;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+  }
+
+  .btnSupp{
+    height: 90%;
+    background-color: red;
+    border-radius: 5px;
+    padding: 5px;
+    color: #FFF;
+  }
+  .btnSupp:hover{
+    background-color: rgb(188, 0, 0);
+  }
+
+  .product-blockP img{
+    height: 100%;
+  }
+  
+  /* Styling pour le footer */
+.footer-container {
+    background-color: #8f8f8f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-social {
+    margin-top: 20px;
+  }
+  
+  .footer-social p {
+    margin: 0;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    font-size: 24px;
+  }
+  
+  .footer-copyright {
+    margin-top: 20px;
+  }
+  
+  
